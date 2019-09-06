@@ -1,0 +1,79 @@
+body {
+    background-color: #333333;
+}
+.gallery img {
+    transition: 1s;
+}
+.gallery img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.05);
+}
+.img_box{
+    text-align:center;
+    display: table;
+}
+
+.display_img{
+    display: inline-block;
+}
+.parallax {
+    /* The image used */
+    background-image: url("yosemite-wallpaper-8.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 0;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+}
+.btn-outline-primary {
+    color: #ff6600;
+    border-color: #ff6600; }
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #ff6600;
+    border-color: #333333; }
+.btn-outline-primary:focus{
+    box-shadow: 0 0 0 2px #ffcc66;
+}
+.btn-outline-primary:active{
+  background: #ffbb33 !important;
+}
+.text-primary {
+    color: #ff6600 !important; }
+a.text-primary:hover, a.text-primary:focus {
+    color: #993d00 !important; }
+.navbar-light .navbar-text{
+    color: #ff6600;
+}
+.border-primary {
+    border-color: #000000 !important; }
+.bg-info {
+    background-color: #333333 !important;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #ff6600;
+    border-color: #ff6600;
+}
+.btn-primary:hover{
+    color: #fff;
+    background-color: #ff6600;
+    border-color: #ff6600;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.btn-primary:focus{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19), 0 0 0 2px #ffcc66;
+} 
+.btn-primary:active{
+  background: #ffbb33 !important;
+}
